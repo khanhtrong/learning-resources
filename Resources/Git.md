@@ -31,7 +31,9 @@
 6. Tải kho chứa về máy cục bộ (local)
 	* Nhấp chuột phải vào thư mục dụ án
 	* Chọn Git Bash here
-	* Gõ `git clone git://github.com/username/testgit`
+	* Gõ `git clone git://github.com/username/testgit`: lấy toàn bộ kho chứa
+	* `git pull [tên-máy-chủ] [tên-nhánh]`: Lấy những dữ liệu thay đổi
+	* `git pull --rebase [tên-máy-chủ] [tên-nhánh]`
 
 7. Một số lệnh remote
 	* `git remote`: Xem cấu hình máy chủ từ xa
